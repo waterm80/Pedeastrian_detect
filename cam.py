@@ -21,7 +21,7 @@ while(vid_cam.isOpened()):
         output = model(unsqueeze_tensor).numpy()
 
     font = cv2.FONT_HERSHEY_DUPLEX
-    color = (0, 0, 255)
+    color = (0, 255, 255)
     fontsize = 255
     position = (10, 40)
     text1 = 'Clear'
